@@ -1,0 +1,11 @@
+.links {
+  padding: 3rem;
+  font-size: 1.8rem;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+.links:hover {
+  background: rgb(187, 187, 187);
+  color: white;
+  text-transform: capitalize;
+}

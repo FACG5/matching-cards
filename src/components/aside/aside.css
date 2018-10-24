@@ -1,0 +1,42 @@
+.aside {
+  width: 25rem;
+  height: 100vh;
+  background: #eee;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 5rem;
+  right: -100rem;
+  transition: all 0.5s;
+  padding-top: 15rem;
+}
+.showSlid {
+  position: fixed;
+  top: 6rem;
+  right: 2rem;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  padding: 0.7rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+  background: #333;
+  box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.showSlid span {
+  display: block;
+  width: 80%;
+  height: 5px;
+  background: #eee;
+  margin: 2.5px;
+  border-radius: 1px;
+}
+
+.showSide {
+  right: 0;
+}

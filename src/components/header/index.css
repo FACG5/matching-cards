@@ -1,0 +1,24 @@
+.header {
+  height: 5rem;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background: rgb(65, 65, 65);
+  margin-bottom: 5rem;
+  z-index: 1;
+}
+.header .container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: white;
+}
+.scoreValue {
+  color: rgb(255, 191, 73);
+}

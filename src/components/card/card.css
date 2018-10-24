@@ -1,0 +1,46 @@
+.front,
+.back {
+  border-radius: 0.3rem;
+
+  height: 20rem;
+  width: 15rem;
+  background: red;
+  color: white;
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  position: absolute;
+  backface-visibility: hidden;
+  transition: all 0.3s ease;
+  top: 0;
+  left: 0;
+  cursor: pointer;
+}
+
+.back {
+  transform: rotateY(180deg);
+  background: blue;
+  font-size: 5rem;
+}
+
+.mainCard {
+  height: 20rem;
+  width: 15rem;
+}
+
+.mainCard {
+  perspective: 150rem;
+  -moz-perspective: 150rem;
+  margin: 1rem;
+  border-radius: 1rem;
+}
+
+.flipeBack {
+  transform: rotateY(0);
+}
+
+.flipeFront {
+  transform: rotateY(-180deg);
+}

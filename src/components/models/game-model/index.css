@@ -1,0 +1,30 @@
+.game-model-header {
+  font-size: 3rem;
+  color: #333;
+}
+.game-model-img img {
+  width: 40%;
+  height: 40%;
+  margin: 0 auto;
+}
+.game-model-buttons {
+  margin-top: 4rem;
+}
+.game-model-buttons button {
+  background: rgb(56, 56, 56);
+  color: white;
+  border: 0;
+  font-size: 1.5rem;
+  font-family: inherit;
+  margin: 2rem;
+  padding: 1rem 5rem;
+  cursor: pointer;
+  transition: all 0.5s;
+  border-radius: 0.1rem;
+}
+.game-model-buttons button:first-child:hover {
+  background: rgb(247, 201, 0);
+}
+.game-model-buttons button:last-child:hover {
+  background: rgb(247, 0, 0);
+}
